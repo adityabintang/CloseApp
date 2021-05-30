@@ -27,7 +27,7 @@ class DetailActivity : AppCompatActivity(){
         btn_kembali.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
-            finishAffinity()
+            finish()
         }
     }
 }
